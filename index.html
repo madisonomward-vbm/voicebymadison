@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voice by Madison | Voice Over &amp; Content Writing</title>
+  <meta name="description" content="Professional voice over artist and content writer. Warm, conversational, and authentic — Madison Marquez brings your words to life." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a class="nav__logo" href="#hero">Voice by Madison</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#demos">Demos</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#writing">Writing</a></li>
+      <li><a href="#contact" class="nav__cta">Work Together</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__inner">
+      <p class="hero__eyebrow">Voice Over Artist</p>
+      <h1 class="hero__name">Madison Marquez</h1>
+      <p class="hero__tagline">Warm, clear, and always authentically <em>human</em> —<br />because your audience deserves a voice they can trust.</p>
+      <div class="hero__actions">
+        <a href="#demos" class="btn btn--primary">Hear My Voice</a>
+        <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <span>scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__portrait">
+          <div class="portrait-placeholder" aria-label="Portrait of Madison Marquez">
+            <span class="portrait-placeholder__initials">MM</span>
+          </div>
+        </div>
+        <div class="about__content">
+          <span class="section-label">About &amp; Voice Style</span>
+          <h2>A voice that feels like a conversation, not a performance.</h2>
+          <p>Hi, I'm Madison — a professional voice over artist based in the US. I specialize in authentic, conversational reads that connect with real people. Whether you need a friendly guide through an e-learning course, an engaging narrator for your brand story, or a warm presenter for your explainer video, I bring the same care to every word.</p>
+          <p>My style sits in the sweet spot between polished and approachable: clear enough to be trusted, warm enough to be remembered. I record in a professional home studio with broadcast-quality gear and fast turnaround.</p>
+          <ul class="about__traits">
+            <li>
+              <strong>Tone</strong>
+              <span>Warm · Conversational · Trustworthy</span>
+            </li>
+            <li>
+              <strong>Range</strong>
+              <span>Friendly Authority → Genuine Warmth</span>
+            </li>
+            <li>
+              <strong>Turnaround</strong>
+              <span>24–48 hrs standard / Rush available</span>
+            </li>
+            <li>
+              <strong>Studio</strong>
+              <span>Professional home setup · Broadcast quality</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEMOS -->
+  <section class="demos section section--tinted" id="demos">
+    <div class="container">
+      <span class="section-label">Demo Reel</span>
+      <h2>Hear the Difference</h2>
+      <p class="section-intro">Samples across a range of styles and use cases. Full custom demos available on request.</p>
+
+      <div class="demos__grid">
+
+        <article class="demo-card">
+          <div class="demo-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19V6l12-3v13M9 19c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2zm12 0c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2z"/></svg>
+          </div>
+          <div class="demo-card__info">
+            <h3>Commercial</h3>
+            <p>Upbeat, conversational spots for consumer brands.</p>
+          </div>
+          <div class="demo-card__player">
+            <button class="player__btn play-btn" aria-label="Play Commercial Demo" data-track="commercial">
+              <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              <svg class="icon-pause hidden" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+            </button>
+            <div class="player__track">
+              <div class="player__waveform" aria-hidden="true">
+                <div class="waveform-bars">
+                  <span></span><span></span><span></span><span></span><span></span>
+                  <span></span><span></span><span></span><span></span><span></span>
+                  <span></span><span></span><span></span><span></span><span></span>
+                  <span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <div class="player__progress"></div>
+              </div>
+              <span class="player__time">0:00 / 0:30</span>
+            </div>
+          </div>
+          <p class="demo-card__placeholder-note">Audio coming soon — request a custom sample</p>
+        </article>
+
+        <article class="demo-card">
+          <div class="demo-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>
+          </div>
+          <div class="demo-card__info">
+            <h3>E-Learning &amp; Corporate</h3>
+            <p>Clear, engaging narration for training and education.</p>
+          </div>
+          <div class="demo-card__player">
+            <button class="player__btn play-btn" aria-label="Play E-Learning Demo" data-track="elearning">
+              <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              <svg class="icon-pause hidden" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+            </button>
+            <div class="player__track">
+              <div class="player__waveform" aria-hidden="true">
+                <div class="waveform-bars">
+                  <span></span><span></span><span></span><span></span><span></span>
+                  <span></span><span></span><span></span><span></span><span></span>
+                  <span></span><span></span><span></span><span></span><span></span>
+                  <span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <div class="player__progress"></div>
+              </div>
+              <span class="player__time">0:00 / 0:45</span>
+            </div>
+          </div>
+          <p class="demo-card__placeholder-note">Audio coming soon — request a custom sample</p>
+        </article>
+
+        <article class="demo-card">
+          <div class="demo-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          </div>
+          <div class="demo-card__info">
+            <h3>Explainer &amp; Brand</h3>
+            <p>Storytelling that makes complex ideas feel simple.</p>
+          </div>
+          <div class="demo-card__player">
+            <button class="player__btn play-btn" aria-label="Play Explainer Demo" data-track="explainer">
+              <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              <svg class="icon-pause hidden" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+            </button>
+            <div class="player__track">
+              <div class="player__waveform" aria-hidden="true">
+                <div class="waveform-bars">
+                  <span></span><span></span><span></span><span></span><span></span>
+                  <span></span><span></span><span></span><span></span><span></span>
+                  <span></span><span></span><span></span><span></span><span></span>
+                  <span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <div class="player__progress"></div>
+              </div>
+              <span class="player__time">0:00 / 0:40</span>
+            </div>
+          </div>
+          <p class="demo-card__placeholder-note">Audio coming soon — request a custom sample</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services section" id="services">
+    <div class="container">
+      <span class="section-label">Voice Over Services</span>
+      <h2>What I Offer</h2>
+      <p class="section-intro">Professional voice over for projects of any scope, with fast delivery and broadcast-ready audio.</p>
+
+      <div class="services__grid">
+        <div class="service-card">
+          <div class="service-card__icon" aria-hidden="true">📢</div>
+          <h3>Commercials &amp; Ads</h3>
+          <p>Radio, TV, digital, and podcast ads. Scripts up to 60 seconds with fast turnaround.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon" aria-hidden="true">🎓</div>
+          <h3>E-Learning &amp; Training</h3>
+          <p>Engaging narration for LMS courses, HR modules, and instructional content of any length.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon" aria-hidden="true">▶️</div>
+          <h3>Explainer Videos</h3>
+          <p>Brand storytelling, product demos, and animated videos that turn viewers into customers.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon" aria-hidden="true">🎙️</div>
+          <h3>Podcasts &amp; Audio</h3>
+          <p>Intros, outros, ads, and hosted content. Consistent, polished audio every time.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon" aria-hidden="true">📱</div>
+          <h3>Apps &amp; IVR</h3>
+          <p>In-app voice prompts, onboarding guides, and phone system recordings.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon" aria-hidden="true">🌐</div>
+          <h3>Corporate &amp; Web</h3>
+          <p>Website walkthroughs, internal communications, investor content, and presentations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WRITING CALLOUT -->
+  <section class="writing section section--tinted" id="writing">
+    <div class="container">
+      <div class="writing__inner">
+        <div class="writing__badge">Also available</div>
+        <h2>Content &amp; UX Writing</h2>
+        <p>Beyond the booth, Madison brings the same clarity and warmth to the page. Whether you need web copy that converts, UX microcopy that guides without friction, or long-form content that builds authority — the same thoughtful voice shows up in every word.</p>
+        <ul class="writing__list">
+          <li>Website &amp; landing page copy</li>
+          <li>UX microcopy &amp; product writing</li>
+          <li>Blog posts &amp; thought leadership</li>
+          <li>Email sequences &amp; newsletters</li>
+          <li>Brand voice guidelines</li>
+        </ul>
+        <a href="#contact" class="btn btn--primary">Let's talk about your project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <span class="section-label">Work Together</span>
+      <h2>Ready when you are.</h2>
+      <p class="contact__intro">Whether you have a complete script ready or just an idea, let's talk. I respond to all inquiries within one business day.</p>
+      <a class="btn btn--primary btn--large" href="mailto:madisonomward@gmail.com?subject=VO%20Project%20Inquiry&body=Hi%20Madison%2C%0A%0AI%27m%20interested%20in%20working%20together%20on...">
+        Send Me an Email
+      </a>
+      <p class="contact__note">Or find me on <a href="https://www.voices.com" target="_blank" rel="noopener">Voices.com</a> and <a href="https://www.voice123.com" target="_blank" rel="noopener">Voice123</a></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__logo">Voice by Madison</p>
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <a href="#about">About</a>
+        <a href="#demos">Demos</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer__copy">&copy; <span id="year"></span> Madison Marquez. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
